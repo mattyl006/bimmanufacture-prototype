@@ -1,5 +1,6 @@
 @import "~normalize.css";
 @import "_variables";
+@import "modules/site-header.scss";
 
 html {
   box-sizing: border-box;
@@ -13,8 +14,8 @@ html {
 }
 
 body {
-  background: white;
-  color: $dark-sienna;
+  background: $ui3;
+  color: $text1;
   display: flex;
   align-items: center;
   justify-content: center;
