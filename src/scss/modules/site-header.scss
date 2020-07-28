@@ -35,38 +35,13 @@
         right: 0;
         top: 68px;
         margin-right: 16px;
-        background: none transparent;
-        border: 4px solid $ui6;
-        border-left: 0 solid transparent;
-        border-right: 0 solid transparent;
-        cursor: pointer;
-        display: block;
         height: 24px;
         width: 24px;
-        transition: all 0.2s;
-
-        &::before {
-            left: 0;
-            position: absolute;
-            top: 6px;
-            background: $ui6;
-            content: "";
-            height: 4px;
+        &--div {
             width: 24px;
-            transition: all 0.2s;
-        }
-        &::after {
-            left: 0;
-            position: absolute;
-            top: 6px;
-            background: $ui6;
-            content: "";
-            height: 4px;
-            opacity: 0;
-            visibility: hidden;
-            width: 100%;
-            transform: rotate(90deg);
-            transition: all 0.2s;
+            height: 3px;
+            background-color: $ui6;
+            margin-bottom: 5px;
         }
     }
 
