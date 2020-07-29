@@ -81,5 +81,23 @@ module.exports = {
       chunks: ["index"],
       filename: "index.html",
     }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/projects.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "projects.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/bim.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "bim.html",
+    }),
+    new HtmlWebpackPlugin({
+      template: "./src/pages/scanning.html",
+      inject: true,
+      chunks: ["index"],
+      filename: "scanning.html",
+    }),
   ],
 };
