@@ -1,5 +1,11 @@
 .homepage {
     padding: 104px 16px 0;
+    @media (min-width: $over-mobile) {
+        padding: 118px 16px 0;
+    }
+    @media (min-width: $over-tablet) {
+        padding: 128px 16px 0;
+    }
     display: flex;
     justify-content: center;
     align-items: center;
