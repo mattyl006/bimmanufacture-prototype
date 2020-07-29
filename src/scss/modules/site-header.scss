@@ -16,9 +16,17 @@
     }
 
     &__logo {
-        width: 96px;
+        width: 120px;
         height: 72px;
         margin: 16px 0 16px 16px;
+        @media (min-width: $over-mobile) {
+            width: 140px;
+            height: 86px;
+        }
+        @media (min-width: $over-tablet) {
+            width: 170px;
+            height: 96px;
+        }
     }
 
     &__languages {
