@@ -1,4 +1,5 @@
 .site-header {
+    z-index: 2;
     background-color: $ui1;
     width: 100vw;
     position: fixed;
@@ -8,6 +9,10 @@
 
     &__container {
         position: relative;
+        @media (min-width: 768px) {
+            display: flex;
+            align-items: center;
+        }
     }
 
     &__logo {
@@ -20,7 +25,7 @@
         position: absolute;
         top: 0;
         right: 0;
-        margin-top: 16px;
+        margin: 16px 8px 0 0;
     }
 
     &__flag {
@@ -49,9 +54,18 @@
             margin-bottom: 5px;
             transition: all 0.3s ease;
         }
+        @media (min-width: 768px) {
+            display: none;
+        }
     }
 
     &__navigation {
+        @media (min-width: 768px) {
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin-right: 126px;
+        }
     }
 
     &__list {
@@ -72,13 +86,77 @@
             transform: translateX(100%);
             transition: transform 0.5s ease-in;
         }
+        @media (min-width: 768px) {
+            display: flex;
+        }
+    }
+
+    &__item {
+        position: relative;
+        transition: all 0.3s linear;
+        width: 100%;
+        text-align: center;
+        &:hover {
+            background-color: $hover;
+        }
+        &:hover .site-header__link {
+            color: $ui1;
+        }
+        &:hover .oferts-sublist {
+            display: block;
+            opacity: 1;
+        }
+        @media (min-width: 768px) {
+            margin-right: 48px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+            margin-right: 16px;
+        }
     }
 
     &__link {
+        padding: 8px;
         color: $text2;
-        opacity: 0;
         font-size: 16px;
         display: inline-block;
+        text-decoration: none;
+        @media (min-width: 768px) {
+            opacity: 1;
+            font-size: 20px;
+        }
+        @media (min-width: 768px) and (max-width: 1024px) {
+            font-size: 18px;
+        }
+    }
+}
+
+.oferts-sublist {
+    min-width: 100%;
+    padding: 0;
+    display: none;
+    opacity: 0;
+    list-style: none;
+    background-color: $ui4;
+    position: absolute;
+    z-index: 1;
+
+    &__link {
+        color: $text2;
+        text-decoration: none;
+    }
+
+    &__item {
+        padding: 8px;
+        transition: all 0.3s linear;
+        min-width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #121232;
+        &:hover {
+            background-color: $ui5;
+        }
+        &:hover .oferts-sublist__link {
+            color: $ui1;
+        }
     }
 }
 
