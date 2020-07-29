@@ -9,7 +9,7 @@
 
     &__container {
         position: relative;
-        @media (min-width: 768px) {
+        @media (min-width: $over-mobile) {
             display: flex;
             align-items: center;
         }
@@ -54,13 +54,13 @@
             margin-bottom: 5px;
             transition: all 0.3s ease;
         }
-        @media (min-width: 768px) {
+        @media (min-width: $over-mobile) {
             display: none;
         }
     }
 
     &__navigation {
-        @media (min-width: 768px) {
+        @media (min-width: $over-mobile) {
             width: 100%;
             display: flex;
             justify-content: flex-end;
@@ -73,7 +73,7 @@
         margin: 0;
         padding: 0;
 
-        @media screen and (max-width: 768px) {
+        @media screen and (max-width: $over-mobile) {
             box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
             position: absolute;
             right: 0;
@@ -88,7 +88,7 @@
             transform: translateX(100%);
             transition: transform 0.5s ease-in;
         }
-        @media (min-width: 768px) {
+        @media (min-width: $over-mobile) {
             display: flex;
         }
     }
@@ -108,10 +108,10 @@
             display: block;
             opacity: 1;
         }
-        @media (min-width: 768px) {
+        @media (min-width: $over-mobile) {
             margin-right: 48px;
         }
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media (min-width: $over-mobile) and (max-width: $over-tablet) {
             margin-right: 16px;
         }
     }
@@ -122,11 +122,11 @@
         font-size: 16px;
         display: inline-block;
         text-decoration: none;
-        @media (min-width: 768px) {
+        @media (min-width: $over-mobile) {
             opacity: 1;
             font-size: 20px;
         }
-        @media (min-width: 768px) and (max-width: 1024px) {
+        @media (min-width: $over-mobile) and (max-width: $over-tablet) {
             font-size: 18px;
         }
     }
@@ -145,6 +145,9 @@
     &__link {
         color: $text2;
         text-decoration: none;
+        @media (min-width: $over-mobile) {
+            font-size: 18px;
+        }
     }
 
     &__item {
@@ -153,12 +156,16 @@
         min-width: 100%;
         text-align: center;
         filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
-        
+
         &:hover {
             background-color: $blue3;
         }
         &:hover .oferts-sublist__link {
             color: $ui1;
+        }
+
+        @media (min-width: $over-mobile) {
+            padding: 12px;
         }
     }
 }
