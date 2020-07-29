@@ -72,12 +72,14 @@
         list-style: none;
         margin: 0;
         padding: 0;
+
         @media screen and (max-width: 768px) {
+            box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
             position: absolute;
             right: 0;
             height: 80vh;
             top: 108px;
-            background-color: $ui3;
+            background-color: $blue1;
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -136,7 +138,7 @@
     display: none;
     opacity: 0;
     list-style: none;
-    background-color: $ui4;
+    background-color: $blue2;
     position: absolute;
     z-index: 1;
 
@@ -150,9 +152,10 @@
         transition: all 0.3s linear;
         min-width: 100%;
         text-align: center;
-        border-bottom: 1px solid #121232;
+        filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.25));
+        
         &:hover {
-            background-color: $ui5;
+            background-color: $blue3;
         }
         &:hover .oferts-sublist__link {
             color: $ui1;
