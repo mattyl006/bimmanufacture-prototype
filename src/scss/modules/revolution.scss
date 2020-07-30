@@ -10,18 +10,137 @@
     }
 
     &__title {
-        margin: 48px 0;
+        margin: 24px 0;
         font-size: 24px;
         text-align: center;
 
         @media (min-width: $over-mobile) {
-            margin: 64px 0;
+            margin: 32px 0;
             font-size: 32px;
         }
 
         @media (min-width: $over-tablet) {
-            margin: 80px 0;
+            margin: 48px 0;
             font-size: 48px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__image {
+        width: 300px;
+        height: 400px;
+        margin-bottom: 24px;
+    }
+
+    &__paragraph {
+        text-align: center;
+        @media (min-width: $over-mobile) {
+            max-width: 800px;
+            margin: 0 auto 24px;
+        }
+    }
+}
+
+.technology {
+    &__title {
+        margin: 24px 0;
+        font-size: 18px;
+        text-align: center;
+
+        @media (min-width: $over-mobile) {
+            margin: 32px 0;
+            font-size: 24px;
+        }
+
+        @media (min-width: $over-tablet) {
+            margin: 48px 0;
+            font-size: 32px;
+        }
+    }
+
+    &__paragraph {
+        margin: 0 0 24px 0;
+        text-align: center;
+        &--last {
+            margin-bottom: 64px;
+        }
+        @media (min-width: $over-mobile) {
+            max-width: 800px;
+            margin: 0 auto 24px;
+        }
+    }
+
+    &__list {
+        padding: 0;
+        margin: 0 0 32px 0;
+
+        &-description {
+            text-align: center;
+            font-weight: 600;
+            margin-bottom: 16px;
+            @media (min-width: $over-mobile) {
+                max-width: 800px;
+                margin: 0 auto 16px;
+            }
+        }
+
+        &-item {
+            list-style: none;
+            max-width: 360px;
+            margin: 0 auto;
+            &:before {
+                content: "";
+                display: inline-block;
+                background-color: #c4c4c4;
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                margin-right: 8px;
+            }
+        }
+    }
+}
+
+.mental {
+    margin-bottom: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__title {
+        margin: 24px 0;
+        font-size: 18px;
+        text-align: center;
+
+        @media (min-width: $over-mobile) {
+            margin: 32px 0;
+            font-size: 24px;
+        }
+
+        @media (min-width: $over-tablet) {
+            margin: 48px 0;
+            font-size: 32px;
+        }
+    }
+
+    &__image {
+        width: 300px;
+        height: 150px;
+        margin-bottom: 24px;
+    }
+
+    &__paragraph {
+        margin: 0 0 24px 0;
+        text-align: center;
+        @media (min-width: $over-mobile) {
+            max-width: 800px;
         }
     }
 }
