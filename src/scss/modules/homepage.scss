@@ -1,18 +1,19 @@
 .homepage {
     padding: 104px 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     @media (min-width: $over-mobile) {
         padding: 118px 16px 0;
     }
     @media (min-width: $over-tablet) {
         padding: 128px 16px 0;
     }
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     &__animation {
         margin: 16px 0 64px;
         width: 100%;
+        max-width: 1400px;
         height: 400px;
         display: flex;
         justify-content: center;
@@ -26,7 +27,7 @@
             margin: 16px 0 96px;
         }
         @media (min-width: $over-tablet) {
-            height: 800px;
+            height: 760px;
             margin: 16px 0 128px;
         }
     }
