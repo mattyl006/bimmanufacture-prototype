@@ -36,6 +36,16 @@
         width: 300px;
         height: 400px;
         margin-bottom: 24px;
+        border: 1px solid $blue2;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        @media (min-width: $over-mobile) {
+            width: 400px;
+            height: 500px;
+        }
+        @media (min-width: $over-tablet) {
+            width: 600px;
+            height: 700px;
+        }
     }
 
     &__paragraph {
@@ -134,6 +144,19 @@
         width: 300px;
         height: 150px;
         margin-bottom: 24px;
+        border: 1px solid $blue2;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        @media (min-width: $over-mobile) {
+            width: 400px;
+            height: 250px;
+        }
+
+        @media (min-width: $over-tablet) {
+            max-width: 1000px;
+            max-height: 600px;
+            width: 80vw;
+            height: 60vw;
+        }
     }
 
     &__paragraph {

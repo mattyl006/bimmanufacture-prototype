@@ -166,5 +166,12 @@
         text-decoration: none;
         color: $text2;
         font-weight: 600;
+        transition: all 0.8s ease-in-out;
+        &:hover {
+            display: inline-block;
+            color: $hover;
+            transform: scale(1.01);
+            font-size: 18px;
+        }
     }
 }
