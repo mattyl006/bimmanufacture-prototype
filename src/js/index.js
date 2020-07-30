@@ -2,6 +2,84 @@ import '../scss/main.scss';
 
 console.log('HELLO 🚀')
 
+const languagePack = {
+    eng: {
+        nav_oferts: `OFERTS`,
+        nav_scanning: `Laser scanning`,
+        nav_realisation: `REALIZATIONS`,
+        nav_project1: `Project I`,
+        nav_project2: `Project II`,
+        nav_project3: `Project III`,
+        nav_project4: `Project IV`,
+        nav_project5: `Project V`,
+        nav_project6: `Project VI`,
+        nav_information: `INFORMATION`,
+        nav_about: `ABOUT US`,
+        nav_revolution: `BIM Revolution`,
+        nav_contact: `CONTACT`,
+        homepage__title: `Title animation`,
+        bim: `BIM`
+
+    },
+    pl: {
+        nav_oferts: `OFERTA`,
+        nav_scanning: `Skanowanie laserowe`,
+        nav_realisation: `REALIZACJE`,
+        nav_project1: `Projekt I`,
+        nav_project2: `Projekt II`,
+        nav_project3: `Projekt III`,
+        nav_project4: `Projekt IV`,
+        nav_project5: `Projekt V`,
+        nav_project6: `Projekt VI`,
+        nav_information: `INFORMACJE`,
+        nav_about: `O NAS`,
+        nav_revolution: `Rewolucja BIM`,
+        nav_contact: `KONTAKT`,
+        homepage__title: `Animacja tytułowa`,
+        bim: `BIM`
+    }
+}
+
+// multi language implementation
+const content = document.querySelectorAll('.text--js');
+console.log(content);
+const buttonPL = document.querySelector('.site-header__pl--js');
+const buttonENG = document.querySelector('.site-header__eng--js');
+
+buttonPL.addEventListener('click', () => {
+    for (let i of content) {
+        i.classList.add('polish');
+    }
+    let polish = document.querySelectorAll('.polish');
+    if (polish.length != 0) {
+        for (let i of content) {
+            i.innerHTML = languagePack.pl[i.id];
+        }
+    }
+    else {
+        for (let i of content) {
+            i.innerHTML = languagePack.eng[i.id];
+        }
+    }
+})
+
+buttonENG.addEventListener('click', () => {
+    for (let i of content) {
+        i.classList.add('polish');
+    }
+    let english = document.querySelectorAll('.polish');
+    if (english.length != 0) {
+        for (let i of content) {
+            i.innerHTML = languagePack.eng[i.id];
+        }
+    }
+    else {
+        for (let i of content) {
+            i.innerHTML = languagePack.pl[i.id];
+        }
+    }
+})
+
 // navigation mobile
 const navSlide = () => {
     const burger = document.querySelector('.site-header__hamburger--js');

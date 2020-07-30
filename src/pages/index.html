@@ -27,8 +27,18 @@
                     />
                 </a>
                 <div class="site-header__languages">
-                    <img class="site-header__flag" src="../assets/img/pl.png" />
-                    <img class="site-header__flag" src="../assets/img/en.png" />
+                    <button class="site-header__button site-header__pl--js">
+                        <img
+                            class="site-header__flag"
+                            src="../assets/img/pl.png"
+                        />
+                    </button>
+                    <button class="site-header__button site-header__eng--js">
+                        <img
+                            class="site-header__flag"
+                            src="../assets/img/en.png"
+                        />
+                    </button>
                 </div>
                 <button
                     class="site-header__hamburger site-header__hamburger--js"
@@ -41,19 +51,28 @@
                     <ul class="site-header__list site-header__list--js">
                         <li class="site-header__item">
                             <a
-                                class="site-header__link site-header__link--js"
+                                class="site-header__link site-header__link--js text--js"
                                 href="#oferts"
+                                id="nav_oferts"
+
                             >
                                 OFERTA
                             </a>
                             <ul class="oferts-sublist">
                                 <li class="oferts-sublist__item">
-                                    <a class="oferts-sublist__link" href="bim.html">
+                                    <a
+                                        class="oferts-sublist__link text--js"
+                                        href="bim.html" id="bim"
+                                    >
                                         BIM
                                     </a>
                                 </li>
                                 <li class="oferts-sublist__item">
-                                    <a class="oferts-sublist__link" href="scanning.html">
+                                    <a
+                                        class="oferts-sublist__link text--js"
+                                        href="scanning.html"
+                                        id="nav_scanning"
+                                    >
                                         Skanowanie laserowe
                                     </a>
                                 </li>
@@ -61,32 +80,36 @@
                         </li>
                         <li class="site-header__item">
                             <a
-                                class="site-header__link site-header__link--js"
+                                class="site-header__link site-header__link--js text--js"
                                 href="#projects"
+                                id="nav_realisation"
                             >
                                 REALIZACJE
                             </a>
                             <ul class="oferts-sublist">
                                 <li class="oferts-sublist__item">
                                     <a
-                                        class="oferts-sublist__link"
+                                        class="oferts-sublist__link text--js"
                                         href="projects.html"
+                                        id="nav_project1"
                                     >
                                         Projekt I
                                     </a>
                                 </li>
                                 <li class="oferts-sublist__item">
                                     <a
-                                        class="oferts-sublist__link"
+                                        class="oferts-sublist__link text--js"
                                         href="projects.html"
+                                        id="nav_project2"
                                     >
                                         Projekt II
                                     </a>
                                 </li>
                                 <li class="oferts-sublist__item">
                                     <a
-                                        class="oferts-sublist__link"
+                                        class="oferts-sublist__link text--js"
                                         href="projects.html"
+                                        id="nav_project3"
                                     >
                                         Projekt III
                                     </a>
@@ -95,19 +118,28 @@
                         </li>
                         <li class="site-header__item">
                             <a
-                                class="site-header__link site-header__link--js"
+                                class="site-header__link site-header__link--js text--js"
                                 href="#information"
+                                id="nav_information"
                             >
                                 INFORMACJE
                             </a>
                             <ul class="oferts-sublist">
                                 <li class="oferts-sublist__item">
-                                    <a class="oferts-sublist__link" href="about.html">
+                                    <a
+                                        class="oferts-sublist__link text--js"
+                                        href="about.html"
+                                        id="nav_about"
+                                    >
                                         O nas
                                     </a>
                                 </li>
                                 <li class="oferts-sublist__item">
-                                    <a class="oferts-sublist__link" href="revolution.html">
+                                    <a
+                                        class="oferts-sublist__link text--js"
+                                        href="revolution.html"
+                                        id="nav_revolution"
+                                    >
                                         Rewolucja BIM
                                     </a>
                                 </li>
@@ -115,8 +147,9 @@
                         </li>
                         <li class="site-header__item">
                             <a
-                                class="site-header__link site-header__link--js"
+                                class="site-header__link site-header__link--js text--js"
                                 href="contact.html"
+                                id="nav_contact"
                             >
                                 KONTAKT
                             </a>
@@ -127,50 +160,75 @@
         </header>
         <main class="homepage">
             <div class="homepage__animation" id="homepage">
-                <h1 class="homepage__title">Animacja tytułowa</h1>
+                <h1 class="homepage__title text--js" id="homepage__title">
+                    Animacja tytułowa
+                </h1>
             </div>
             <section class="oferts" id="oferts">
-                <h2 class="oferts__title">OFERTA</h2>
+                <h2 class="oferts__title text--js" id="nav_oferts">OFERTA</h2>
                 <div class="oferts__container">
                     <section class="oferts__block">
-                        <h3 class="oferts__block-title">BIM</h3>
+                        <h3 class="oferts__block-title" id="bim">BIM</h3>
                     </section>
                     <section class="oferts__block">
-                        <h3 class="oferts__block-title">Skanowanie 3D</h3>
+                        <h3 class="oferts__block-title text--js" id="nav_scanning">
+                            Skanowanie laserowe
+                        </h3>
                     </section>
                 </div>
             </section>
             <section class="projects" id="projects">
-                <h2 class="projects__title">REALIZACJE</h2>
+                <h2 class="projects__title" id="projects__title">REALIZACJE</h2>
                 <div class="projects__grid">
                     <section class="projects__block">
-                        <h3 class="projects__block-title">Project I</h3>
+                        <h3 class="projects__block-title text--js" id="nav_project1">
+                            Project I
+                        </h3>
                     </section>
                     <section class="projects__block">
-                        <h3 class="projects__block-title">Project II</h3>
+                        <h3 class="projects__block-title text--js" id="nav_project2">
+                            Project II
+                        </h3>
                     </section>
                     <section class="projects__block">
-                        <h3 class="projects__block-title">Project III</h3>
+                        <h3 class="projects__block-title text--js" id="nav_project3">
+                            Project III
+                        </h3>
                     </section>
                     <section class="projects__block">
-                        <h3 class="projects__block-title">Project IV</h3>
+                        <h3 class="projects__block-title text--js" id="nav_project4">
+                            Project IV
+                        </h3>
                     </section>
                     <section class="projects__block">
-                        <h3 class="projects__block-title">Project V</h3>
+                        <h3 class="projects__block-title text--js" id="nav_project5">
+                            Project V
+                        </h3>
                     </section>
                     <section class="projects__block">
-                        <h3 class="projects__block-title">Project VI</h3>
+                        <h3 class="projects__block-title text--js" id="nav_project6">
+                            Project VI
+                        </h3>
                     </section>
                 </div>
             </section>
             <section class="information" id="information">
-                <h2 class="information__title">INFORMACJE</h2>
+                <h2 class="information__title text--js" id="nav_information">
+                    INFORMACJE
+                </h2>
                 <div class="information__container">
                     <section class="information__block">
-                        <h3 class="information__block-title">O NAS</h3>
+                        <h3 class="information__block-title text--js" id="nav_about">
+                            O NAS
+                        </h3>
                     </section>
                     <section class="information__block">
-                        <h3 class="information__block-title">Rewolucja BIM</h3>
+                        <h3
+                            class="information__block-title text--js"
+                            id="nav_revolution"
+                        >
+                            Rewolucja BIM
+                        </h3>
                     </section>
                 </div>
             </section>

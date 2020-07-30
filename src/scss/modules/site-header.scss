@@ -29,6 +29,12 @@
         }
     }
 
+    &__button {
+        border: none;
+        background: none;
+        outline-color: transparent;
+    }
+
     &__languages {
         position: absolute;
         top: 0;
