@@ -99,6 +99,31 @@ const languagePack = {
         scanning_span2: `Investition`,
         scanning_span3: `Countries`,
         scanning_p: `Laser scanning is the controlled deflection of laser beams, visible or invisible. Scanned laser beams are used in some 3-D printers, in rapid prototyping, in machines for material processing, in laser engraving machines, in ophthalmological laser systems for the treatment of presbyopia, in confocal microscopy, in laser printers, in laser shows, in Laser TV, and in barcode scanners.`,
+
+        revolution_title1: `BIM revolution`,
+        revolution_title2: `Technology revolution`,
+        revolution_title3: `Mental revolution`,
+        revolution_dt: `The possibility to take into account the increasing number of parameters to optimize the design is ahead:`,
+        revolution_item1: `3D – geometry relationship,`,
+        revolution_item2: `4D – time- or schedule-related information,`,
+        revolution_item3: `5D – cost-related information,`,
+        revolution_item4: `6D – project life-cycle management information,`,
+        revolution_item5: `and we can enumerate here nD ...`,
+        revolution_p1: `July 20, 1969 memorializes the spectacular landing of the first humans on the Moon. When Neil Armstrong descended the ladder and set foot in the dusty surface, he spoke the words that passed into history: “That’s one small step for a man, one giant leap for mankind.”`,
+        revolution_p2: `Revolutions in the process of designing and construction which commenced a few years ago can be compared not only to taking a step or jump but also to using a space-shift portal into another space-time dimension.`,
+        revolution_p3: `Progress and development have been with humankind since forever from the very beginning of humanity evolution. People have been continuously optimizing their work and tasks, completing them faster and with less effort.`,
+        revolution_p4: `We experience the technological development on every step, from the invention of the wheel, light bulbs, through the development of computerization, mobile, and automotive.`,
+        revolution_p5: `The increase of computing power and the reduction of these devices size have already enabled us to go beyond 2D design.`,
+        revolution_p6: `In fact, over time we consider in the design more variables optimizing in making decisions using faster computers and more advanced software. Man can optimize and filter data only to a certain limit.`,
+        revolution_p7: `Supposing, the computer is properly operated and programmed; it is able to assist us in making fast-paced and better decisions, in accordance with the sentence: “Harder, Better, Faster, Stronger” Time is money, optimized information is power.`,
+        revolution_p8: `In a few years in the design, we will know what is the actual or estimated for the next few months price (using financial markets) of any component.`,
+        revolution_p9: `We will be also able to check the availability of this item during the planned construction. This is all to optimize and look for the best solution, taking into account many factors.`,
+        revolution_p10: `In the past, people could not imagine the design of a complicated object without a drawing board and a tracing paper. Today we cannot think of a factory design on a paper but as a minimum in 2D or 3D design.`,
+        revolution_p11: `In the near future there will be no one considering working in a different way than BIM.`,
+        revolution_p12: `In 1992, G.A. van Nederveen and F.P. Tolman pictured BIM as “Modelling Multiple Views on Building” and it appeared that their estimates became real. Today we are already working in BIM in many offices. BIM is the process of building information modeling; however, it turns out that BIM is something more than a “building” information modeling. This is also the relationship with the environment (for instance, in civil engineering). And it really boils down to IM – information modeling.`,
+        revolution_p13: `Today we use the advanced tools, like the laser scanners or the augmented reality glasses. We use the mouse clicking by two fingers which often causes wrist pain. Just imagine being a designer as a pianist who designs in the air using two hands, 10 fingers... In fact, there are no restrictions, there are only challenges.`,
+        revolution_p14: `Over the last years we heard about technical novelties, most incredible devices and what happens at presence is merely the beginning.
+        What the next years will bring? It is hard to predict but we have an interesting way with adventures ahead.`,
     },
     pl: {
         nav_oferts: `OFERTA`,
@@ -231,6 +256,71 @@ const languagePack = {
         scanning_span2: `inwestycje`,
         scanning_span3: `kraje`,
         scanning_p: `Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady laserowego pomiaru odległości z punktu o określonych współrzędnych przestrzennych do badanych punktów i wyznaczeniu ich położenia w przyjętym układzie przestrzennych współrzędnych biegunowych. Ze względu na odpowiednio dużą liczbę punktów pomiarowych, dla których stosowane jest określenie "chmura punktów", uzyskuje się quasi-ciągłą, przestrzenną reprezentację powierzchni badanego obiektu.`,
+
+        revolution_title1: `BIM rewolucja`,
+        revolution_title2: `Rewolucja technologiczna`,
+        revolution_title3: `Rewolucja mentalna`,
+        revolution_dt: `Przed nami możliwości uwzględniania coraz większej ilości parametrów optymalizujących projekt:`,
+        revolution_item1: `3D – zależności geometrycznych,`,
+        revolution_item2: `4D – czasu powiązanego z harmonogramem,`,
+        revolution_item3: `5D – ceny np. koszt materiałów,`,
+        revolution_item4: `6D – analizy cyklu życia budynków,`,
+        revolution_item5: `i można tutaj napisać nD...`,
+        revolution_p1: `20 lipca 1969 roku nastąpiło lądowanie na księżycu i kiedy Amstrong zszedł po drabince i postawił stopę na pokrytej pyłem powierzchni wypowiedział słowa, które przeszły do historii: „To jest mały krok człowieka ale wielki skok dla ludzkości.”`,
+        revolution_p2: `Rewolucje w procesie budowlanym, która rozpoczęła się kilka lat temu można porównać nie tylko do wykonania kroku czy skoku tylko do korzystania z portalu czasoprzestrzeni - przeniesienia się w inny wymiar.`,
+        revolution_p3: `Postęp i rozwój towarzyszy człowiekowi od zawsze od samego
+        początku ewolucji ludzkości. Ludzie od zawsze próbują
+        optymalizować swoją prace i zadania by móc je wykonać
+        szybciej z mniejszym wysiłkiem.`,
+        revolution_p4: `Rozwoju technologicznego doświadczamy na każdym kroku od
+        wynalezienia koła, żarówki, poprzez rozwój komputeryzacji,
+        telefonii komórkowej czy motoryzacji.`,
+        revolution_p5: `Zwiększenie mocy obliczeniowej komputerów przy zmniejszaniu
+        wielkości tych urządzeń pozwala nam już dziś na wyjście poza
+        granice projektów 2D.`,
+        revolution_p6: `Tak naprawdę z biegiem czasu w projektowaniu uwzględniamy
+        jeszcze więcej zmiennych optymalizujących podejmowane
+        decyzje w oparciu o szybsze komputery i oprogramowanie.
+        Człowiek może optymalizować i filtrować dane tylko do pewnej
+        granicy.`,
+        revolution_p7: `Odpowiednio obsługiwany i zaprogramowany komputer jest w
+        stanie wspierać nas w szybkim podejmowaniu trafniejszych
+        decyzji w myśl sentencji: “Ciężej, Lepiej, Szybciej,
+        Silniej” Czas to pieniądz. Zoptymalizowana informacja to
+        potęga.`,
+        revolution_p8: `Za kilka lat podczas projektowania będziemy wiedzieć jaka
+        jest aktualna cena produktu w danej chwili albo prognozowana
+        na najbliższe miesiące (w oparciu np. o analizy giełdowe).`,
+        revolution_p9: `Zobaczymy też jak wygląda sprawa dostępności tego elementu
+        podczas planowanej budowy. Wszystko po to by optymalizować i
+        szukać najlepszego rozwiązania z uwzględnieniem wielu
+        czynników.`,
+        revolution_p10: `Kiedyś nie wyobrażano sobie zaprojektowania skomplikowanego
+        obiektu bez użycia deski kreślarskiej i kalki. Dzisiaj nie
+        wyobrażamy sobie projektowania fabryki na papierze tylko
+        przy użyciu co najmniej oprogramowania 2D lub 3D.`,
+        revolution_p11: `W najbliższym czasie nikt nie będzie sobie wyobrażał pracy
+        innej jak przy wykorzystaniu technologii BIM.`,
+        revolution_p12: `W 1992 roku G.A. van Nederveen i F.P. Tolman zobrazowali BIM
+        jako “Modelowanie wielu widoków budynku” i okazało się, że
+        ich założenia stały się rzeczywistością i dzisiaj w wielu
+        biurach pracujemy już w technologii BIM. BIM oznacza proces
+        modelowania informacji o budynku - okazuje się jednak ze
+        wychodzimy z BIM poza budynek projektując jego zależności z
+        otoczeniem (drogi, sieci). Całość sprowadza się to tak
+        naprawdę do IM (Information Modeling) - modelowania i
+        kształtowania informacji.`,
+        revolution_p13: `Dzisiaj korzystamy z zaawansowanych narzędzi, laserowych
+        skanerów, okularów do rozszerzonej rzeczywistości.
+        Korzystamy też z myszki klikając dwoma palcami i poruszając
+        obolałym często nadgarstkiem. A wyobraźmy sobie projektanta
+        – pianistę, który modeluje budynek w powietrzu przy użyciu
+        dwóch rak, 10-ciu palców... Tak naprawdę nie ma ograniczeń
+        są jedynie wyzwania.`,
+        revolution_p14: `Przez ostatnie lata słyszymy o nowinkach technicznych,
+        niesamowitych urządzeniach, a to co się dzieje to dopiero
+        początek.Co będzie za kilka lat? Trudno powiedzieć, ale
+        przed nami ciekawa droga pełna przygód.`,
     }
 }
 
