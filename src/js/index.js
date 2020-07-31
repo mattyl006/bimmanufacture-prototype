@@ -18,7 +18,19 @@ const languagePack = {
         nav_revolution: `BIM Revolution`,
         nav_contact: `CONTACT`,
         homepage__title: `Title animation`,
-        bim: `BIM`
+        bim: `BIM`,
+
+        p1_about: `BIM Manufacture is a team fascinated BIM technology.
+        Each team member has many years of experience in BIM modeling using of programs like Revit. Our group uses modern tools and technologies.`,
+        p2_about: `The company was created in November 2009 as Sajmon Projekt - Biuro Projektowe offers designing energy-efficient building services using 3D technology. In December 2013 due to dynamic development, broadening offered services and market area company name's was changed to BIM Manufacture.`,
+        dt_about: `Our team members has attended courses, get certificates of knowledge and ability to work in BIM modeling programs:`,
+        p3_about: `Everyone in the group has experience working with a variety types of projects.
+        We have designed small and large objects - from single-family houses through the office and retail, to demanding industrial plants.
+        We are not afraid of challenges.`,
+        p4_about: `ECO BIM Manufacture - We operate pro-economically and pro-environmentally with a modern design process!
+        We know how to design and model the buildings to make them more cost-effective, energy-efficient and environmentally friendly.
+        In our group we have professionals who provide certification process finding the best solutions for low-energy and net-zero buildings. We use renewable energy systems in our projects.`,
+        p5_about: `Feel invited to cooperate with us. We guarantee expert advice, innovative technology, optimal solutions and friendly service.`,
 
     },
     pl: {
@@ -36,7 +48,29 @@ const languagePack = {
         nav_revolution: `Rewolucja BIM`,
         nav_contact: `KONTAKT`,
         homepage__title: `Animacja tytułowa`,
-        bim: `BIM`
+        bim: `BIM`,
+
+        p1_about: `BIM Manufacture to zespół ludzi zafascynowanych technologią
+        BIM, to grupa korzystająca z nowoczesnych narzędzi i
+        technologii. Każdy członek zespołu posiada wieloletnie
+        doświadczenie w pracy przy wykorzystywaniu programów do
+        modelowania BIM m.in. Revit.`,
+        p2_about: `Firma powstała w listopadzie 2009 roku jako Sajmon Projekt - Biuro Projektowe oferująca projektowanie instalacji energooszczędnych w budynkach przy wykorzystaniu technologii 3D. Od grudnia 2013 roku ze względu na dynamiczny rozwój, poszerzenie zakresu i obszaru oferowanych usług zmieniła nazwę na BIM Manufacture.`,
+        dt_about: `Nasi pracownicy posiadają certyfikaty potwierdzające wiedzę
+        i umiejętności pracy w programach do modelowania BIM;`,
+        p3_about: `Projektowaliśmy duże i małe obiekty - od domków
+        jednorodzinnych poprzez obiekty biurowe i handlowe, aż po
+        wymagające zakłady przemysłowe. Nie boimy się wyzwań.`,
+        p4_about: `ECO BIM Manufacture - działamy ekonomicznie i pro
+        ekologicznie z nowoczesnym procesem projektowania! Wiemy jak
+        projektować i modelować budynki aby były bardziej
+        ekonomiczne, energooszczędne i ekologiczne. W naszej grupie
+        mamy specjalistów od certyfikacji energetycznych i
+        najlepszych rozwiązań dla budynków niskoenergetycznch, z
+        zakresu energii odnawialnej.`,
+        p5_about: `Zapraszamy zainteresowanych do współpracy, gwarantujemy
+        fachowe doradztwo, nowoczesną technologię, optymalne
+        rozwiązania i miłą obsługę.`
     }
 }
 
