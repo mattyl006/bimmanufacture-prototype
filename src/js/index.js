@@ -87,6 +87,18 @@ const languagePack = {
         contact_city: `postcode: 60-331 Poznań`,
         contact_country: `country: Poland`,
 
+        projects_title: `Realizacja n - animacja/zdjęcie`,
+        projects_p: `Opis zrealizowanego projektu / siatka zdjęć.`,
+
+        scanning_title1: `Scanning - animation/photo`,
+        scanning_title2: `We already scanned...`,
+        scanning_title3: `Laser scanning`,
+        scanning_0: `0`,
+        scanning_p: `0`,
+        scanning_span1: `Over`,
+        scanning_span2: `Investition`,
+        scanning_span3: `Countries`,
+        scanning_p: `Laser scanning is the controlled deflection of laser beams, visible or invisible. Scanned laser beams are used in some 3-D printers, in rapid prototyping, in machines for material processing, in laser engraving machines, in ophthalmological laser systems for the treatment of presbyopia, in confocal microscopy, in laser printers, in laser shows, in Laser TV, and in barcode scanners.`,
     },
     pl: {
         nav_oferts: `OFERTA`,
@@ -206,56 +218,22 @@ const languagePack = {
         contact_address: `adres: ul. Husarska 8/3`,
         contact_city: `kod pocztowy: 60-331 Poznań`,
         contact_country: `kraj: Polska`,
+
+        projects_title: `Realizacja n - animacja/zdjęcie`,
+        projects_p: `Opis zrealizowanego projektu / siatka zdjęć.`,
+
+        scanning_title1: `Skanowanie - animacja/zdjęcie`,
+        scanning_title2: `Do tej pory zeskanowaliśmy...`,
+        scanning_title3: `Skanowanie laserowe`,
+        scanning_0: `0`,
+        scanning_p: `0`,
+        scanning_span1: `Ponad`,
+        scanning_span2: `inwestycje`,
+        scanning_span3: `kraje`,
+        scanning_p: `Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady laserowego pomiaru odległości z punktu o określonych współrzędnych przestrzennych do badanych punktów i wyznaczeniu ich położenia w przyjętym układzie przestrzennych współrzędnych biegunowych. Ze względu na odpowiednio dużą liczbę punktów pomiarowych, dla których stosowane jest określenie "chmura punktów", uzyskuje się quasi-ciągłą, przestrzenną reprezentację powierzchni badanego obiektu.`,
     }
 }
 
-// multi language implementation
-const content = document.querySelectorAll('.text--js');
-console.log(content);
-const buttonPL = document.querySelector('.site-header__pl--js');
-const buttonENG = document.querySelector('.site-header__eng--js');
-
-buttonPL.addEventListener('click', () => {
-    for (let i of content) {
-        i.classList.add('polish');
-    }
-    let polish = document.querySelectorAll('.polish');
-    if (polish.length != 0) {
-        for (let i of content) {
-            i.innerHTML = languagePack.pl[i.id];
-        }
-    }
-    else {
-        for (let i of content) {
-            i.innerHTML = languagePack.eng[i.id];
-        }
-    }
-    const noeng = document.querySelectorAll('.planning__item--noeng');
-    for(let i of noeng) {
-        i.style.display = `block`;
-    }
-})
-
-buttonENG.addEventListener('click', () => {
-    for (let i of content) {
-        i.classList.add('english');
-    }
-    let english = document.querySelectorAll('.english');
-    if (english.length != 0) {
-        for (let i of content) {
-            i.innerHTML = languagePack.eng[i.id];
-        }
-    }
-    else {
-        for (let i of content) {
-            i.innerHTML = languagePack.pl[i.id];
-        }
-    }
-    const noeng = document.querySelectorAll('.planning__item--noeng');
-    for(let i of noeng) {
-        i.style.display = `none`;
-    }
-})
 
 
 // navigation mobile
@@ -332,7 +310,60 @@ const counterAnimation = () => {
     document.querySelectorAll('.m2--js').innerText -= 200;
 }
 
+const multiLanguage = () => {
+    // multi language implementation
+    const content = document.querySelectorAll('.text--js');
+    console.log(content);
+    const buttonPL = document.querySelector('.site-header__pl--js');
+    const buttonENG = document.querySelector('.site-header__eng--js');
+
+    buttonPL.addEventListener('click', () => {
+        for (let i of content) {
+            i.classList.add('polish');
+        }
+        let polish = document.querySelectorAll('.polish');
+        if (polish.length != 0) {
+            for (let i of content) {
+                i.innerHTML = languagePack.pl[i.id];
+            }
+        }
+        else {
+            for (let i of content) {
+                i.innerHTML = languagePack.eng[i.id];
+            }
+        }
+        const noeng = document.querySelectorAll('.planning__item--noeng');
+        for(let i of noeng) {
+            i.style.display = `block`;
+        }
+        counterAnimation();
+    })
+
+    buttonENG.addEventListener('click', () => {
+        for (let i of content) {
+            i.classList.add('english');
+        }
+        let english = document.querySelectorAll('.english');
+        if (english.length != 0) {
+            for (let i of content) {
+                i.innerHTML = languagePack.eng[i.id];
+            }
+        }
+        else {
+            for (let i of content) {
+                i.innerHTML = languagePack.pl[i.id];
+            }
+        }
+        const noeng = document.querySelectorAll('.planning__item--noeng');
+        for(let i of noeng) {
+            i.style.display = `none`;
+        }
+        counterAnimation();
+    })
+}
+
 const index = () => {
+    multiLanguage();
     navSlide();
     counterAnimation();
 }
