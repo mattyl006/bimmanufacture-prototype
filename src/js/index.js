@@ -32,6 +32,56 @@ const languagePack = {
         In our group we have professionals who provide certification process finding the best solutions for low-energy and net-zero buildings. We use renewable energy systems in our projects.`,
         p5_about: `Feel invited to cooperate with us. We guarantee expert advice, innovative technology, optimal solutions and friendly service.`,
 
+        bim_title1: `BIM - photo/animation`,
+        bim_title2: `Modeling & Design BIM`,
+        bim_title3: `We offer optimal design process in BIM technology`,
+
+        bim_p1: `We design and model energy-efficient buildings using BIM technology. We coordinate multi-disciplinary models: architectural, structural, MEP installation - sanitary, HVAC, fire protection and electrical.`,
+        bim_p2: `BIM Manufacture uses modern software during designing and modeling process in BIM technology.`,
+        bim_p3: `We use Revit for designing and modeling objects. The software is based on an integrated actual database updated by the professionals. This working process allows to reduce design errors. Revit platform gives a possibility to exchange information between multi-disciplinary teams and lets us provide high quality design of the building.`,
+        bim_p4: `The building and its elements are precisely matched - "made ​​to measure".`,
+        bim_p5: `BIM models are updated immediately when changes appear. For example when changing the wall thickness on plan it changes everywhere in the model - in sections, plans , 3D views and schedules.`,
+        bim_p6: `We produce accurate models of BIM objects of public buildings, sacred buildings, residential and others.`,
+        bim_p7: `Do you have any questions you want to ask about the details? Do you need any additional product that is not listed above?`,
+        bim_p8: `Contact us -`,
+
+        bim_dt1: `We create BIM models for each stage of the design (from conception, construction design, through tender design, detailed design until the as-built projects):`,
+        bim_dt2: `Mechanical installation, building services;`,
+        bim_dt3: `Electrical and automation;`,
+        bim_dt4: `Additionally we offer;`,
+
+        bim_item1: `Architectural,`,
+        bim_item2: `Structural,`,
+        bim_item3: `MEP - Sanitary, HVAC,`,
+        bim_item4: `MEP - Electrical,`,
+        bim_item5: `Mechanical ventilation,`,
+        bim_item6: `Heating,`,
+        bim_item7: `Cooling,`,
+        bim_item8: `Water supply and sewerage,`,
+        bim_item9: `Fire protection using smoke exhaust and sprinklers,`,
+        bim_item10: `Natural gas,`,
+        bim_item11: `Central vacuum cleaner,`,
+        bim_item12: `Rainwater recovery,`,
+        bim_item13: `Heating and cooling recovery,`,
+        bim_item14: `Solar water heater installations,`,
+        bim_item15: `Switchgear distribution,`,
+        bim_item16: `Lighting fixtures and cable trays,`,
+        bim_item17: `Automatic HVAC and smoke garages,`,
+        bim_item18: `Fire alarm system,`,
+        bim_item19: `Security systems (sound and visual systems),`,
+        bim_item20: `Access control,`,
+        bim_item21: `Photovoltaic installations (PV),`,
+        bim_item22: ``,
+        bim_item23: `Energy performance certificates and analysis,`,
+        bim_item24: `Calculations and regulation of heating, cooling and hot water circulation installations,`,
+        bim_item25: `Multi-disciplinary BIM coordination,`,
+        bim_item26: `Report of clashes detected in multi-discipline BIM model,`,
+        bim_item27: `Creation of gbXML files for importing to IES, HAP,`,
+        bim_item28: `Creation of IFC models for mobile use (Tekla BIMsight),`,
+        bim_item29: `Analysis of installed power and the true demand for heating and cooling in building`,
+        bim_item30: `BIM-based soil analysis movement,`,
+        bim_item31: ``,
+
     },
     pl: {
         nav_oferts: `OFERTA`,
@@ -70,7 +120,83 @@ const languagePack = {
         zakresu energii odnawialnej.`,
         p5_about: `Zapraszamy zainteresowanych do współpracy, gwarantujemy
         fachowe doradztwo, nowoczesną technologię, optymalne
-        rozwiązania i miłą obsługę.`
+        rozwiązania i miłą obsługę.`,
+
+        bim_title1: `BIM - zdjęcie/animacja`,
+        bim_title2: `Modelowanie i Projektowanie BIM`,
+        bim_title3: `Oferujemy optymalne projektowanie w technologii BIM`,
+
+        bim_p1: `Projektujemy i modelujemy energooszczędne obiekty przy
+        wykorzystaniu technologii BIM. Oferujemy skoordynowane
+        wielobranżowe modele architektoniczne, konstrukcyjne,
+        instalacyjne - sanitarne, ppoż i elektryczne.`,
+        bim_p2: `W BIM Manufacture korzystamy z nowoczesnego
+        oprogramowania do projektowania i modelowania zgodnie z
+        technologią BIM.`,
+        bim_p3: `Wykorzystujemy oprogramowanie Revit do projektowania i
+        modelowania obiektów. Oprogramowanie to jest oparte na
+        zintegrowanej bazie danych zawierającej aktualne dane
+        wprowadzone przez projektantów co pozwala na redukowanie
+        błędów projektowych. Jest to platforma wymiany
+        informacji międzybranżowej, która pozwala na generowanie
+        najlepszej jakości projektu budynku.`,
+        bim_p4: ` Budynek i jego elementy są dokładnie dopasowane - "szyte
+        na miarę".`,
+        bim_p5: `Model BIM podczas zmian jest aktualizowany natychmiast.
+        Zmieniając np. na rzucie grubość ściany jej grubość
+        zmienia się wszędzie w pozostałych przekrojach, rzutach,
+        widokach 3D lub zestawieniach.`,
+        bim_p6: `Wykonujemy dokładne modele BIM obiektów m.in. budynków
+        użyteczności publicznej, sakralnych, mieszkaniowych i
+        innych.`,
+        bim_p7: `Masz pytania, chcesz zapytać o szczegóły, potrzebujesz
+        dodatkowego produktu który nie jest ujęty powyżej?`,
+        bim_p8: `Skontaktuj się z nami -`,
+
+        bim_dt1: `Opracowujemy dokładne modele wielobranżowe BIM dla
+        każdego etapu projektowania (od koncepcji, projektu
+        budowlanego, projektu przetargowego, projektu
+        wykonawczego aż do projektu powykonawczego):`,
+        bim_dt2: `instalacji sanitarnych;`,
+        bim_dt3: `instalacji elektrycznej i automatyki;`,
+        bim_dt4: `dodatkowo oferujemy;`,
+
+        bim_item1: `architektoniczne,`,
+        bim_item2: `konstrukcyjne,`,
+        bim_item3: `instalacyjne - sanitarne,`,
+        bim_item4: `instalacyjne - elektryczne,`,
+        bim_item5: `wentylacji bytowej,`,
+        bim_item6: `ogrzewania,`,
+        bim_item7: `chłodzenia,`,
+        bim_item8: `wod-kan,`,
+        bim_item9: `ppoż wraz z oddymianiem,`,
+        bim_item10: `gazu,`,
+        bim_item11: `odkurzania centralnego,`,
+        bim_item12: `odzysku wody opadowej,`,
+        bim_item13: `odzysku energii cieplnej i chłodniczej,`,
+        bim_item14: `instalacje solarne,`,
+        bim_item15: `rozdzielnice dystrybucyjne,`,
+        bim_item16: `oświetlenie i koryta kablowe,`,
+        bim_item17: `automatyka HVAC i oddymiania garaży,`,
+        bim_item18: `system sygnalizacji pożaru,`,
+        bim_item19: `DSO (Dźwiękowych Systemów Ostrzegawczych),`,
+        bim_item20: `kontrola dostępu,`,
+        bim_item21: `okablowanie strukturalne,`,
+        bim_item22: `instalacje fotowoltaiczne,`,
+        bim_item23: `świadectwa charakterystyki energetycznej i
+        certyfikaty energetyczne,`,
+        bim_item24: `obliczenia i regulacje instalacji c.o., c.w.u,`,
+        bim_item25: `koordynacje międzybranżową 3D,`,
+        bim_item26: `wykrywanie kolizji w formie raportu na podstawie
+        modelu wielobranżowego BIM,`,
+        bim_item27: `sprawdzanie projektów pod względem technicznym,`,
+        bim_item28: `wykonanie modeli gbxml dla potrzeb IES, HAP,`,
+        bim_item29: `wykonanie modeli IFC do mobilnego użytkowania modeli
+        3D,`,
+        bim_item30: `analizy mocy zainstalowanej oraz zapotrzebowania na
+        ciepło i chłód dla budynków,`,
+        bim_item31: `analiza mas ziemnych w oparciu o model BIM,`,
+
     }
 }
 
@@ -95,13 +221,17 @@ buttonPL.addEventListener('click', () => {
             i.innerHTML = languagePack.eng[i.id];
         }
     }
+    const noeng = document.querySelectorAll('.planning__item--noeng');
+    for(let i of noeng) {
+        i.style.display = `block`;
+    }
 })
 
 buttonENG.addEventListener('click', () => {
     for (let i of content) {
-        i.classList.add('polish');
+        i.classList.add('english');
     }
-    let english = document.querySelectorAll('.polish');
+    let english = document.querySelectorAll('.english');
     if (english.length != 0) {
         for (let i of content) {
             i.innerHTML = languagePack.eng[i.id];
@@ -112,7 +242,12 @@ buttonENG.addEventListener('click', () => {
             i.innerHTML = languagePack.pl[i.id];
         }
     }
+    const noeng = document.querySelectorAll('.planning__item--noeng');
+    for(let i of noeng) {
+        i.style.display = `none`;
+    }
 })
+
 
 // navigation mobile
 const navSlide = () => {
