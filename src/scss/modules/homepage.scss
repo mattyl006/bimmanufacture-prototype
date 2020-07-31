@@ -72,6 +72,12 @@
             font-size: 32px;
         }
     }
+
+    &__link {
+        color: $text1;
+        text-decoration: none;
+    }
+
     &__block {
         margin-top: 48px;
         width: 200px;
@@ -142,6 +148,10 @@
             grid-row-gap: 96px;
         }
     }
+    &__link {
+        color: $text1;
+        text-decoration: none;
+    }
     &__block {
         width: 100px;
         height: 100px;
@@ -199,6 +209,10 @@
         @media (min-width: $over-tablet) {
             font-size: 32px;
         }
+    }
+    &__link {
+        color: $text1;
+        text-decoration: none;
     }
     &__block {
         margin-top: 48px;
