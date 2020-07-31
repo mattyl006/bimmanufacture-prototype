@@ -111,6 +111,7 @@
         position: relative;
         transition: all 0.3s linear;
         width: 100%;
+        min-width: 130px;
         text-align: center;
         &:hover {
             background-color: $hover;
