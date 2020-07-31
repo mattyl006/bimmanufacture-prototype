@@ -8,10 +8,12 @@
 
     @media (min-width: $over-mobile) {
         padding: 124px 16px 0;
+        margin-bottom: 80px;
     }
 
     @media (min-width: $over-tablet) {
         padding: 134px 16px 0;
+        margin-bottom: 128px;
     }
 
     &__title {
@@ -34,7 +36,7 @@
         @media (min-width: $over-tablet) {
             display: flex;
             justify-content: center;
-            align-items: flex-end;
+            align-items: center;
         }
     }
 
@@ -75,12 +77,12 @@
         height: 60vw;
         border: 1px solid $blue2;
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-        
+
         @media (min-width: $over-tablet) {
             width: 80vw;
             height: 60vw;
-            max-width: 500px;
-            max-height: 400px;
+            max-width: 600px;
+            max-height: 360px;
         }
     }
 }

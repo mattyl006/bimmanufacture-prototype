@@ -82,6 +82,11 @@ const languagePack = {
         bim_item30: `BIM-based soil analysis movement,`,
         bim_item31: ``,
 
+        contact_title: `Contact`,
+        contact_address: `address: ul. Husarska 8/3`,
+        contact_city: `postcode: 60-331 Poznań`,
+        contact_country: `country: Poland`,
+
     },
     pl: {
         nav_oferts: `OFERTA`,
@@ -197,6 +202,10 @@ const languagePack = {
         ciepło i chłód dla budynków,`,
         bim_item31: `analiza mas ziemnych w oparciu o model BIM,`,
 
+        contact_title: `Kontakt`,
+        contact_address: `adres: ul. Husarska 8/3`,
+        contact_city: `kod pocztowy: 60-331 Poznań`,
+        contact_country: `kraj: Polska`,
     }
 }
 
