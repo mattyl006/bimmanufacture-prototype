@@ -87,8 +87,8 @@ const languagePack = {
         contact_city: `postcode: 60-331 Poznań`,
         contact_country: `country: Poland`,
 
-        projects_title: `Realizacja n - animacja/zdjęcie`,
-        projects_p: `Opis zrealizowanego projektu / siatka zdjęć.`,
+        projects_title: `Realisation n - animation/photo`,
+        projects_p: `Projects describe / grid of photos.`,
 
         scanning_title1: `Scanning - animation/photo`,
         scanning_title2: `We already scanned...`,
