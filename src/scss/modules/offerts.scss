@@ -1,0 +1,43 @@
+.offerts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__header {
+      font-size: 72px;
+      font-weight: 300;
+      text-align: center;
+      max-width: 500px;
+      line-height: 72px;
+      margin: 0 120px 0 0;
+  }
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  &__item {
+    padding-bottom: 16px;
+    position: relative;
+    &:before {
+      display: inline-block;
+      content: '';
+      width: 32px;
+      height: 32px;
+      background-image: url('../assets/icons/before-decorator.svg');
+      background-color: transparent;
+      position: absolute;
+      top: 0;
+      left: -52px;
+    }
+  }
+
+  &__link {
+    font-size: 32px;
+    font-weight: 300;
+  }
+
+}

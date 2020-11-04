@@ -5,6 +5,8 @@
   align-items: center;
   position: relative;
 
+  //margin-bottom: 600px;
+
   &__logo {
     margin-top: 16px;
     width: 200px;
@@ -29,8 +31,6 @@
 }
 
 .block {
-  top: 192px;
-  position: absolute;
   height: calc(100vh - 192px);
   width: calc(calc(100vh - 182px) * 1.739130434782609);
   background-color: transparent;
