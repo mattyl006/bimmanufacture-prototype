@@ -1,0 +1,40 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  &__logo {
+    margin-top: 16px;
+    width: 200px;
+    height: 127px;
+  }
+
+  &__header {
+    margin: 16px 0 0 0;
+    font-weight: 300;
+    font-size: 24px;
+  }
+
+  &__animation {
+    top: 192px;
+    position: absolute;
+    // animationRatio = 1.739130434782609;
+    height: calc(100vh - 192px);
+    width: calc(calc(100vh - 192px) * 1.739130434782609);
+    display: block;
+    padding: 12px;
+  }
+}
+
+.block {
+  top: 192px;
+  position: absolute;
+  height: calc(100vh - 192px);
+  width: calc(calc(100vh - 182px) * 1.739130434782609);
+  background-color: transparent;
+  border: solid 48px $my_white;
+  z-index: 2;
+  filter: blur(12px);
+}

@@ -1,7 +1,9 @@
 @import "~normalize.css";
 @import "_variables";
 
-@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+@import 'modules/hero.scss';
 
 html {
     box-sizing: border-box;
@@ -18,7 +20,7 @@ body {
     background: $my_white;
     color: $anthracite;
     overflow-x: hidden;
-    font-family: 'Play', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     scroll-behavior: smooth;
     line-height: 32px;
     font-size: 16px;

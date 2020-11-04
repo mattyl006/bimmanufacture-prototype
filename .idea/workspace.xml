@@ -33,50 +33,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f827efe-e82f-4e71-88b6-da9c997e3ea2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/assets/img/2b.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/BIMORNOTTOBIM.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/BIMORNOTTOBIM_2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/Building_Performance_Analysis_Certificate_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/LogoSP.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/Revit_Architecture_2013_Certified_Professional.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo_BIMmanufacture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/bim.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/hero-animation.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/videos/hero-animation.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modules/hero.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/projects.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/revolution.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/scanning.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/about.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/bim.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/contact.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/homepage.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/projects-subpage.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/revolution.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/scanning.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/site-header.scss" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1joZj1fCmQGg6mm3khClJl6px8b" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/public" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Dev\business\bimmanufacture\src\assets\videos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Dev\business\bimmanufacture\public" />
+      <recent name="D:\Dev\business\bimmanufacture\src\assets\videos" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -86,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604472538230</updated>
-      <workItem from="1604472541218" duration="882000" />
+      <workItem from="1604472541218" duration="11345000" />
     </task>
     <servers />
   </component>
@@ -104,10 +108,17 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604473024672">
+    <state x="687" y="322" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604493058141">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604473024672" />
+    <state x="687" y="322" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604493058141" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1604493070210">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1604493070210" />
   </component>
 </project>
