@@ -1,16 +1,7 @@
 @import "~normalize.css";
 @import "_variables";
-@import "modules/site-header.scss";
-@import "modules/homepage.scss";
-@import "modules/projects-subpage.scss";
-@import "modules/bim.scss";
-@import "modules/scanning.scss";
-@import "modules/about.scss";
-@import "modules/revolution.scss";
-@import "modules/contact.scss";
 
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
 
 html {
     box-sizing: border-box;
@@ -24,40 +15,11 @@ html {
 }
 
 body {
-    background: $ui3;
-    color: $text1;
+    background: $my_white;
+    color: $anthracite;
     overflow-x: hidden;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Play', sans-serif;
     scroll-behavior: smooth;
     line-height: 32px;
     font-size: 16px;
-}
-
-.footer {
-    background-color: $ui6;
-    padding: 16px 0;
-    &__block {
-        width: 148px;
-        height: 124px;
-        background-color: $ui1;
-        border: 1px solid #4e4e5a;
-        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 50%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        @media (min-width: $over-tablet) {
-            width: 312px;
-            height: 176px;
-        }
-    }
-    &__logo {
-        width: 94px;
-        height: 72px;
-        @media (min-width: $over-tablet) {
-            width: 170px;
-            height: 96px;
-        }
-    }
 }
