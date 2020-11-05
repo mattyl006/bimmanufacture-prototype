@@ -33,13 +33,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f827efe-e82f-4e71-88b6-da9c997e3ea2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/js/observer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scss/modules/navigation.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modules/bim.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scss/modules/scanning.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/observer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/observer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/modules/offerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/modules/offerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.common.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +90,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1604472538230</updated>
-      <workItem from="1604472541218" duration="19972000" />
+      <workItem from="1604472541218" duration="20961000" />
+      <workItem from="1604563522765" duration="1244000" />
     </task>
     <servers />
   </component>
@@ -108,6 +108,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
