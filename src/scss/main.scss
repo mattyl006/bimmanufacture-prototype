@@ -6,11 +6,13 @@
 @import 'modules/hero.scss';
 @import 'modules/offerts.scss';
 @import 'modules/navigation.scss';
-@import 'modules/scanning.scss';
-@import 'modules/bim.scss';
-@import 'modules/modeling.scss';
+@import 'modules/articles/scanning';
+@import 'modules/articles/bim';
+@import 'modules/articles/modeling';
 @import 'modules/references.scss';
 @import 'modules/projects.scss';
+@import 'modules/contact.scss';
+@import 'modules/footer.scss';
 
 html {
     box-sizing: border-box;

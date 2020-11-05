@@ -13,29 +13,32 @@
         />
     </head>
     <body>
+
+
+        <nav class="navigation navigation--js">
+            <a class="navigation__home" href="#hero">
+                <img class="navigation__logo" src="../assets/icons/logo.svg">
+            </a>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#offerts">USŁUGI</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#references">REFERENCJE</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#projects">REALIZACJE</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#contact">KONTAKT</a>
+                </li>
+            </ul>
+        </nav>
+
+
         <main class="main">
 
-            <nav class="navigation navigation--js">
-                <a class="navigation__home">
-                    <img class="navigation__logo" src="../assets/icons/logo.svg">
-                </a>
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a class="navigation__link">USŁUGI</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link">REFERENCJE</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link">REALIZACJE</a>
-                    </li>
-                    <li class="navigation__item">
-                        <a class="navigation__link">KONTAKT</a>
-                    </li>
-                </ul>
-            </nav>
-
-            <div class="hero hero--js">
+            <div class="hero hero--js" id="hero">
                 <img class="hero__logo" src="../assets/icons/logo.svg">
                 <h1 class="hero__header">Witaj na stronie Bimmanufacture</h1>
                 <div class="block"></div>
@@ -44,21 +47,21 @@
                 </video>
             </div>
 
-            <section class="offerts offerts--js">
+            <section class="offerts offerts--js" id="offerts">
                 <h2 class="offerts__header">JAKIE ŚWIADCZYMY USŁUGI?</h2>
                 <ul class="offerts__list">
                     <li class="offerts__item">
-                        <a class="offerts__link">
+                        <a class="offerts__link" href="#scanning">
                             SKANOWANIE LASEROWE
                         </a>
                     </li>
                     <li class="offerts__item">
-                        <a class="offerts__link">
+                        <a class="offerts__link" href="#bim">
                             DORADZTWO BIM
                         </a>
                     </li>
                     <li class="offerts__item">
-                        <a class="offerts__link">
+                        <a class="offerts__link" href="#modeling">
                             KOORDYNACJA I MODELOWANIE BIM
                         </a>
                     </li>
@@ -66,7 +69,7 @@
             </section>
 
 
-            <article class="scanning">
+            <article class="scanning" id="scanning">
                 <h2 class="scanning__header">Skanowanie laserowe</h2>
                 <p class="scanning__paragraph">
                     Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady
@@ -77,7 +80,7 @@
                 </p>
             </article>
 
-            <article class="bim">
+            <article class="bim" id="bim">
                 <h2 class="bim__header">Doradztwo BIM</h2>
                 <p class="bim__paragraph">
                     Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady
@@ -88,7 +91,7 @@
                 </p>
             </article>
 
-            <article class="modeling">
+            <article class="modeling" id="modeling">
                 <h2 class="modeling__header">Koordynacja i modelowanie BIM</h2>
                 <p class="modeling__paragraph">
                     Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady
@@ -100,8 +103,8 @@
             </article>
 
 
-            <section class="references">
-                <h1 class="references__header">REFERENCJE</h1>
+            <section class="references" id="references">
+                <h2 class="references__header">REFERENCJE</h2>
                 <ul class="references__list">
                     <li class="references__item"></li>
                     <li class="references__item"></li>
@@ -112,8 +115,8 @@
                 </ul>
             </section>
 
-            <section class="projects">
-                <h1 class="projects__header">REALIZACJE</h1>
+            <section class="projects" id="projects">
+                <h2 class="projects__header">REALIZACJE</h2>
                 <ul class="projects__list">
                     <li class="projects__item"></li>
                     <li class="projects__item"></li>
@@ -122,6 +125,50 @@
             </section>
 
 
+
+            <section class="contact" id="contact">
+                <h2 class="contact__header">KONTAKT</h2>
+                <div class="contact__container">
+                    <div class="contact__content">
+                        <p class="contact__paragraph">
+                            <b>Adres:</b> BIM Manufacture 62-064 <br>Plewiska ul. Koperkowa 69
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>Telefon:</b>
+                            <a class="contact__telephone" href="tel:+48 788 691 454">
+                                +48 788 691 454
+                            </a>
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>Email:</b>
+                            <a class="contact__email" href="mailto:office@BIMmanufacture.com">
+                                office@BIMmanufacture.com
+                            </a>
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>NIP:</b> 7642588240
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>REGON:</b> 301273794
+                        </p>
+                    </div>
+                    <iframe
+                            class="contact__map"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4871.44010350915!2d16.815722!3d52.
+                            375496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e05a382b4fe6c2b!2sBIM%20Manufacture!5e0!
+                            3m2!1spl!2spl!4v1604567911786!5m2!1spl!2spl" width="600" height="450" frameborder="0"
+                            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
+                </div>
+            </section>
+
+
         </main>
+
+        <footer class="footer">
+            <img class="footer__social" src="../assets/icons/facebook.svg">
+            <img class="footer__social" src="../assets/icons/linkedin.svg">
+            <img class="footer__social" src="../assets/icons/youtube.svg">
+        </footer>
     </body>
 </html>

@@ -1,0 +1,11 @@
+.footer {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  &__social {
+    width: 32px;
+    height: auto;
+  }
+}
