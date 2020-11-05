@@ -1,13 +1,14 @@
 console.log("observer works");
 
 const hero = document.querySelector('.hero--js');
-const navigation = document.querySelector('.navigation--js')
+const footer = document.querySelector('.footer--js');
+const navigation = document.querySelector('.navigation--js');
 
-const options = {
-    rootMargin: '-200px',
+const navObserverOptions = {
+    rootMargin: '-100px',
 };
 
-const observer = new IntersectionObserver(function (entries, observer) {
+const navObserver = new IntersectionObserver(function (entries, observer) {
     entries.forEach(entry => {
         if(entry.isIntersecting) {
             navigation.classList.add('hide');
@@ -16,6 +17,24 @@ const observer = new IntersectionObserver(function (entries, observer) {
             navigation.classList.remove('hide');
         }
     })
-}, options);
+}, navObserverOptions);
 
-observer.observe(hero);
+const footerObserverOptions = {
+    rootMargin: '-100px',
+};
+
+const footerObserver = new IntersectionObserver(function (entries, observer) {
+    entries.forEach(entry => {
+        console.log(entry);
+        if(entry.isIntersecting) {
+            footer.classList.add('hide');
+        }
+        else {
+            footer.classList.remove('hide');
+        }
+    })
+}, footerObserverOptions);
+
+navObserver.observe(hero);
+
+footerObserver.observe(hero);
