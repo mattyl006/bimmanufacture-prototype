@@ -1,0 +1,131 @@
+.scanning {
+    padding: 104px 16px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    @media (min-width: $over-mobile) {
+        padding: 118px 16px 0;
+    }
+    @media (min-width: $over-tablet) {
+        padding: 128px 16px 0;
+    }
+
+    &__graphic {
+        margin: 16px 0 64px;
+        width: 80%;
+        max-width: 1000px;
+        height: 50vw;
+        min-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: $ui4;
+        border: 1px solid #121232;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+        @media (min-width: $over-mobile) {
+            min-height: 400px;
+        }
+        @media (min-width: $over-tablet) {
+            max-height: 500px;
+        }
+    }
+
+    &__title {
+        margin: 0;
+        font-size: 24px;
+        @media (min-width: $over-mobile) {
+            font-size: 32px;
+        }
+        @media (min-width: $over-tablet) {
+            font-size: 48px;
+        }
+    }
+}
+
+.counter {
+    margin-bottom: 64px;
+
+    &__title {
+        margin: 0;
+        font-size: 18px;
+        margin-bottom: 24px;
+        text-align: center;
+
+        @media (min-width: $over-mobile) {
+            font-size: 24px;
+            margin-bottom: 32px;
+        }
+        @media (min-width: $over-tablet) {
+            font-size: 32px;
+            margin-bottom: 48px;
+        }
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 24px;
+        @media (min-width: $over-mobile) {
+            grid-column-gap: 48px;
+        }
+    }
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    &__icon {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 8px;
+        @media (min-width: $over-mobile) {
+            margin-bottom: 16px;
+            width: 64px;
+            height: 64px;
+        }
+    }
+
+    &__box {
+        font-size: 12px;
+        color: $blue3;
+        line-height: 16px;
+        font-family: Roboto Mono;
+        @media (min-width: $over-mobile) {
+            font-size: 18px;
+        }
+    }
+
+    &__number {
+        color: $hover;
+        font-weight: 600;
+    }
+}
+
+.laser {
+    margin-bottom: 64px;
+    text-align: center;
+
+    &__title {
+        margin: 0;
+        font-size: 18px;
+        margin-bottom: 32px;
+        @media (min-width: $over-mobile) {
+            font-size: 24px;
+            margin-bottom: 48px;
+        }
+        @media (min-width: $over-tablet) {
+            font-size: 32px;
+            margin-bottom: 64px;
+        }
+    }
+
+    &__describe {
+        max-width: 1200px;
+    }
+}
