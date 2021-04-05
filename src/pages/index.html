@@ -11,284 +11,178 @@
             property="og:description"
             content="Bimmanufacture company website."
         />
-        <!-- <meta property="og:url" content="" />
-        <meta
-            property="og:image"
-            content="https://maciejkorsan.com/wtf-gulp-starter/assets/img/cover.png"
-        /> -->
     </head>
     <body>
-        <header class="site-header">
-            <div class="site-header__container">
-                <a href="index.html">
-                    <img
-                        class="site-header__logo"
-                        src="../assets/img/logo_BIMmanufacture.png"
-                        alt="company logo"
-                    />
-                </a>
-                <div class="site-header__languages">
-                    <button class="site-header__button site-header__pl--js">
-                        <img
-                            class="site-header__flag"
-                            src="../assets/img/pl.png"
-                            alt="poland flag"
-                        />
-                    </button>
-                    <button class="site-header__button site-header__eng--js">
-                        <img
-                            class="site-header__flag"
-                            src="../assets/img/en.png"
-                            alt="english flag"
-                        />
-                    </button>
-                </div>
-                <button
-                    class="site-header__hamburger site-header__hamburger--js"
-                >
-                    <div class="site-header__hamburger--div line1"></div>
-                    <div class="site-header__hamburger--div line2"></div>
-                    <div class="site-header__hamburger--div line3"></div>
-                </button>
-                <nav class="site-header__navigation">
-                    <ul class="site-header__list site-header__list--js">
-                        <li class="site-header__item">
-                            <a
-                                class="site-header__link site-header__link--js text--js"
-                                href="#oferts"
-                                id="nav_oferts"
-                            >
-                                OFERTA
-                            </a>
-                            <ul class="oferts-sublist">
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="bim.html"
-                                        id="bim"
-                                    >
-                                        BIM
-                                    </a>
-                                </li>
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="scanning.html"
-                                        id="nav_scanning"
-                                    >
-                                        Skanowanie laserowe
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="site-header__item">
-                            <a
-                                class="site-header__link site-header__link--js text--js"
-                                href="#projects"
-                                id="nav_realisation"
-                            >
-                                REALIZACJE
-                            </a>
-                            <ul class="oferts-sublist">
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="projects.html"
-                                        id="nav_project1"
-                                    >
-                                        Projekt I
-                                    </a>
-                                </li>
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="projects.html"
-                                        id="nav_project2"
-                                    >
-                                        Projekt II
-                                    </a>
-                                </li>
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="projects.html"
-                                        id="nav_project3"
-                                    >
-                                        Projekt III
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="site-header__item">
-                            <a
-                                class="site-header__link site-header__link--js text--js"
-                                href="#information"
-                                id="nav_information"
-                            >
-                                INFORMACJE
-                            </a>
-                            <ul class="oferts-sublist">
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="about.html"
-                                        id="nav_about"
-                                    >
-                                        O nas
-                                    </a>
-                                </li>
-                                <li class="oferts-sublist__item">
-                                    <a
-                                        class="oferts-sublist__link text--js"
-                                        href="revolution.html"
-                                        id="nav_revolution"
-                                    >
-                                        Rewolucja BIM
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="site-header__item">
-                            <a
-                                class="site-header__link site-header__link--js text--js"
-                                href="contact.html"
-                                id="nav_contact"
-                            >
-                                KONTAKT
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+
+
+        <nav class="navigation navigation--js">
+            <a class="navigation__home" href="#hero">
+                <img class="navigation__logo" src="../assets/icons/logo.svg">
+            </a>
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#offerts">USŁUGI</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#references">REFERENCJE</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#projects">REALIZACJE</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="#contact">KONTAKT</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <main class="main">
+
+            <div class="hero hero--js" id="hero">
+                <img class="hero__logo" src="../assets/icons/logo.svg">
+                <h1 class="hero__header">Witaj na stronie Bimmanufacture</h1>
+                <div class="block"></div>
+                <video class="hero__animation" autoplay loop muted playsinline>
+                        <source src="public/hero-animation.mp4" type="video/mp4">
+                </video>
             </div>
-        </header>
-        <main class="homepage">
-            <div class="homepage__animation" id="homepage">
-                <h1 class="homepage__title text--js" id="homepage__title">
-                    Animacja tytułowa
-                </h1>
-            </div>
-            <section class="oferts" id="oferts">
-                <h2 class="oferts__title text--js" id="nav_oferts">OFERTA</h2>
-                <div class="oferts__container">
-                    <a class="oferts__link" href="bim.html">
-                        <section class="oferts__block">
-                            <h3 class="oferts__block-title" id="bim">BIM</h3>
-                        </section>
-                    </a>
-                    <a class="oferts__link" href="scanning.html">
-                        <section class="oferts__block">
-                            <h3
-                                class="oferts__block-title text--js"
-                                id="nav_scanning"
-                            >
-                                Skanowanie laserowe
-                            </h3>
-                        </section>
-                    </a>
-                </div>
+
+            <section class="offerts offerts--js" id="offerts">
+                <h2 class="offerts__header">JAKIE ŚWIADCZYMY USŁUGI?</h2>
+                <ul class="offerts__list">
+                    <li class="offerts__item">
+                        <a class="offerts__link" href="#scanning">
+                            SKANOWANIE LASEROWE
+                        </a>
+                    </li>
+                    <li class="offerts__item">
+                        <a class="offerts__link" href="#bim">
+                            DORADZTWO BIM
+                        </a>
+                    </li>
+                    <li class="offerts__item">
+                        <a class="offerts__link" href="#modeling">
+                            KOORDYNACJA I MODELOWANIE BIM
+                        </a>
+                    </li>
+                </ul>
             </section>
+
+
+            <article class="scanning" id="scanning">
+                <h2 class="scanning__header">Skanowanie laserowe</h2>
+                <p class="scanning__paragraph">
+                    Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady
+                    laserowego pomiaru odległości z punktu o określonych współrzędnych przestrzennych do badanych
+                    punktów i wyznaczeniu ich położenia w przyjętym układzie przestrzennych współrzędnych biegunowych.
+                    Ze względu na odpowiednio dużą liczbę punktów pomiarowych, dla których stosowane jest określenie
+                    "chmura punktów", uzyskuje się quasi-ciągłą, przestrzenną reprezentację powierzchni badanego obiektu.
+                </p>
+            </article>
+
+            <article class="bim" id="bim">
+                <h2 class="bim__header">Doradztwo BIM</h2>
+                <p class="bim__paragraph">
+                    Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady
+                    laserowego pomiaru odległości z punktu o określonych współrzędnych przestrzennych do badanych
+                    punktów i wyznaczeniu ich położenia w przyjętym układzie przestrzennych współrzędnych biegunowych.
+                    Ze względu na odpowiednio dużą liczbę punktów pomiarowych, dla których stosowane jest określenie
+                    "chmura punktów", uzyskuje się quasi-ciągłą, przestrzenną reprezentację powierzchni badanego obiektu.
+                </p>
+            </article>
+
+            <article class="modeling" id="modeling">
+                <h2 class="modeling__header">Koordynacja i modelowanie BIM</h2>
+                <p class="modeling__paragraph">
+                    Technologia pozyskiwania informacji o kształcie obiektu. Jego ideę można sprowadzić do zasady
+                    laserowego pomiaru odległości z punktu o określonych współrzędnych przestrzennych do badanych
+                    punktów i wyznaczeniu ich położenia w przyjętym układzie przestrzennych współrzędnych biegunowych.
+                    Ze względu na odpowiednio dużą liczbę punktów pomiarowych, dla których stosowane jest określenie
+                    "chmura punktów", uzyskuje się quasi-ciągłą, przestrzenną reprezentację powierzchni badanego obiektu.
+                </p>
+            </article>
+
+
+            <section class="references" id="references">
+                <h2 class="references__header">REFERENCJE</h2>
+                <ul class="references__list">
+                    <li class="references__item"></li>
+                    <li class="references__item"></li>
+                    <li class="references__item"></li>
+                    <li class="references__item"></li>
+                    <li class="references__item"></li>
+                    <li class="references__item"></li>
+                </ul>
+            </section>
+
             <section class="projects" id="projects">
-                <h2 class="projects__title text--js" id="nav_realisation">
-                    REALIZACJE
-                </h2>
-                <div class="projects__grid">
-                    <a class="projects__link" href="projects.html">
-                        <section class="projects__block">
-                            <h3
-                                class="projects__block-title text--js"
-                                id="nav_project1"
-                            >
-                                Project I
-                            </h3>
-                        </section>
-                    </a>
-                    <a class="projects__link" href="projects.html">
-                        <section class="projects__block">
-                            <h3
-                                class="projects__block-title text--js"
-                                id="nav_project2"
-                            >
-                                Project II
-                            </h3>
-                        </section>
-                    </a>
-                    <a class="projects__link" href="projects.html">
-                        <section class="projects__block">
-                            <h3
-                                class="projects__block-title text--js"
-                                id="nav_project3"
-                            >
-                                Project III
-                            </h3>
-                        </section>
-                    </a>
-                    <a class="projects__link" href="projects.html">
-                        <section class="projects__block">
-                            <h3
-                                class="projects__block-title text--js"
-                                id="nav_project4"
-                            >
-                                Project IV
-                            </h3>
-                        </section>
-                    </a>
-                    <a class="projects__link" href="projects.html">
-                        <section class="projects__block">
-                            <h3
-                                class="projects__block-title text--js"
-                                id="nav_project5"
-                            >
-                                Project V
-                            </h3>
-                        </section>
-                    </a>
-                    <a class="projects__link" href="projects.html">
-                        <section class="projects__block">
-                            <h3
-                                class="projects__block-title text--js"
-                                id="nav_project6"
-                            >
-                                Project VI
-                            </h3>
-                        </section>
-                    </a>
+                <h2 class="projects__header">REALIZACJE</h2>
+                <ul class="projects__list">
+                    <li class="projects__item"></li>
+                    <li class="projects__item"></li>
+                    <li class="projects__item"></li>
+                </ul>
+            </section>
+
+
+
+            <section class="contact" id="contact">
+                <h2 class="contact__header">KONTAKT</h2>
+                <div class="contact__container">
+                    <div class="contact__content">
+                        <p class="contact__paragraph">
+                            <b>Adres:</b> BIM Manufacture 62-064 <br>Plewiska ul. Koperkowa 69
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>Telefon:</b>
+                            <a class="contact__telephone" href="tel:+48 788 691 454">
+                                +48 788 691 454
+                            </a>
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>Email:</b>
+                            <a class="contact__email" href="mailto:office@BIMmanufacture.com">
+                                office@BIMmanufacture.com
+                            </a>
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>NIP:</b> 7642588240
+                        </p>
+                        <p class="contact__paragraph">
+                            <b>REGON:</b> 301273794
+                        </p>
+                    </div>
+                    <iframe
+                            class="contact__map"
+                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4871.44010350915!2d16.815722!3d52.
+                            375496!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x7e05a382b4fe6c2b!2sBIM%20Manufacture!5e0!
+                            3m2!1spl!2spl!4v1604567911786!5m2!1spl!2spl" width="600" height="450" frameborder="0"
+                            style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+                    </iframe>
                 </div>
             </section>
-            <section class="information" id="information">
-                <h2 class="information__title text--js" id="nav_information">
-                    INFORMACJE
-                </h2>
-                <div class="information__container">
-                    <a class="information__link" href="about.html">
-                        <section class="information__block">
-                            <h3
-                                class="information__block-title text--js"
-                                id="nav_about"
-                            >
-                                O NAS
-                            </h3>
-                        </section>
-                    </a>
-                    <a class="information__link" href="revolution.html">
-                        <section class="information__block">
-                            <h3
-                                class="information__block-title text--js"
-                                id="nav_revolution"
-                            >
-                                Rewolucja BIM
-                            </h3>
-                        </section>
-                    </a>
-                </div>
-            </section>
+
+
         </main>
-        <footer class="footer">
-            <div class="footer__block">
-                <img
-                    class="footer__logo"
-                    src="../assets/img/logo_BIMmanufacture.png"
-                    alt="company logo"
-                />
+
+        <footer class="footer footer--js">
+            <a class="footer__link" href="https://www.facebook.com/BuildingInformationModelling" target="_blank">
+                <img class="footer__social" src="../assets/icons/facebook.svg">
+            </a>
+            <a class="footer__link" href="https://www.linkedin.com/company/bim-manufacture/" target="_blank">
+                <img class="footer__social" src="../assets/icons/linkedin.svg">
+            </a>
+            <a class="footer__link" href="https://www.youtube.com/watch?v=SzUI_aTxDcs" target="_blank">
+                <img class="footer__social" src="../assets/icons/youtube.svg">
+            </a>
+
+            <div class="footer__languages">
+                <button class="footer__button">
+                    <img class="footer__language-image" src="../assets/img/en.png">
+                </button>
+                <button class="footer__button">
+                    <img class="footer__language-image" src="../assets/img/pl.png">
+                </button>
             </div>
         </footer>
     </body>

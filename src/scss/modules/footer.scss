@@ -1,0 +1,50 @@
+.footer {
+  height: 64px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  background-color: $my-white;
+  box-shadow: 0px 4px 10px 4px rgba(40, 40, 45, 0.25);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  &__link {
+    margin-right: 64px;
+    width: 42px;
+    height: 64px;
+  }
+
+  &__social {
+    width: 42px;
+    height: 64px;
+  }
+
+  &__languages {
+    position: absolute;
+    right: 24px;
+    bottom: 10px;
+  }
+
+  &__button {
+    border: none;
+    background-color: transparent;
+    padding: 12px;
+    &:focus {
+      outline: 2px solid rgba(40,40,45,0.4);
+      outline-offset: 0;
+    }
+  }
+
+  &__language-image {
+    width: auto;
+    height: 20px;
+    border: 1px solid #28282D;
+    box-shadow: 0 4px 12px 6px rgba(40, 40, 45, 0.25);
+  }
+}
+
+.hide {
+  display: none;
+}
