@@ -47,7 +47,11 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "4.2.2",
     "websocket-extensions": "^0.1.4",
-    "y18n": ">=4.0.1"
+    "y18n": ">=4.0.1",
+    "color-string": ">=1.5.5",
+    "ws": ">=6.2.2",
+    "glob-parent": ">=5.1.2",
+    "browserslist": ">=4.16.5"
   },
   "dependencies": {
     "normalize.css": "^8.0.1"
